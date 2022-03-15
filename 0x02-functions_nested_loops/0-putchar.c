@@ -1,17 +1,19 @@
-#include "main.h"
+#include "holberton.h"
 /**
- *  * main - Prints Holberton
+ *  * main - Entry point
  *   *
  *    * Return: Always 0 (Success)
  *     */
 int main(void)
 {
-		_putchar('p');
-			_putchar('u');
-				_putchar('t');
-					_putchar('c');
-						_putchar('h');
-							_putchar('a');
-								_putchar('r');			
-									return (0);
+		char *sh = "putchar";
+
+			while (*sh)
+					{
+								_putchar(*sh);
+										sh++;
+											}
+				_putchar('\n');
+
+					return (0);
 }
