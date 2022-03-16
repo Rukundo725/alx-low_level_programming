@@ -1,6 +1,4 @@
-
-   
-#include "holberton.h"
+#include "main.h"
 /**
  *  * _isalpha - a function that checks for alphabetic character
  *   * @c: single letter input
@@ -12,4 +10,5 @@ int _isalpha(int c)
 					return (1);
 			else
 						return (0);
+
 }
